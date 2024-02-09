@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chung5116.github.io/Austin-Chang/2024/Python-Coding-Style/</loc>
+    
+    <lastmod>2024-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chung5116.github.io/Austin-Chang/2024/Code-Review-Guide-%E2%80%94-%E5%A6%82%E4%BD%95Code-Review/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chung5116.github.io/Austin-Chang/2024/%E8%96%A9%E6%8F%90%E7%88%BE%E7%9A%84%E8%87%AA%E6%88%91%E8%A6%BA%E5%AF%9F%E7%B7%B4%E7%BF%92/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chung5116.github.io/Austin-Chang/2023/%E3%80%8A%E5%BE%9EA%E5%88%B0A-%E3%80%8B%E7%AF%80%E9%8C%84%E6%95%B4%E7%90%86/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chung5116.github.io/Austin-Chang/2023/%E3%80%8A%E5%AF%AB%E4%BD%9C%EF%BC%8C%E6%98%AF%E8%AE%93%E4%BD%A0%E5%BD%B1%E9%9F%BF%E5%8A%9B%E5%80%8D%E5%A2%9E%E7%9A%84%E6%8A%80%E8%83%BD%E3%80%8B%E6%95%B4%E7%90%86/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chung5116.github.io/Austin-Chang/2024/%E3%80%8AOKR%EF%BC%9A%E5%81%9A%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B%E3%80%8B%E6%95%B4%E7%90%86/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chung5116.github.io/Austin-Chang/2022/%E8%BE%A6%E5%85%AC%E5%AE%A4%E9%96%8B%E5%A7%8B%E8%A3%9D%E4%BF%AE%E5%9B%89/</loc>
     
     <lastmod>2024-02-07</lastmod>
@@ -76,22 +130,36 @@
 
   <url>
     <loc>https://chung5116.github.io/Austin-Chang</loc>
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://chung5116.github.io/Austin-Chang/tags/%E8%BB%9F%E9%AB%94/</loc>
+    <lastmod>2024-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://chung5116.github.io/Austin-Chang/tags/Tensor-Tech/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chung5116.github.io/Austin-Chang/tags/%E5%87%BA%E5%B7%AE/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chung5116.github.io/Austin-Chang/tags/%E5%AD%B8%E7%BF%92/</loc>
+    <lastmod>2024-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -99,8 +167,22 @@
 
   
   <url>
+    <loc>https://chung5116.github.io/Austin-Chang/categories/%E8%BB%9F%E9%AB%94/</loc>
+    <lastmod>2024-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://chung5116.github.io/Austin-Chang/categories/Tensor-Tech/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chung5116.github.io/Austin-Chang/categories/%E5%AD%B8%E7%BF%92/</loc>
+    <lastmod>2024-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
