@@ -137,13 +137,6 @@
 
   
   <url>
-    <loc>https://chung5116.github.io/Austin-Chang/tags/%E8%BB%9F%E9%AB%94/</loc>
-    <lastmod>2024-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://chung5116.github.io/Austin-Chang/tags/Tensor-Tech/</loc>
     <lastmod>2024-02-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -164,14 +157,14 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://chung5116.github.io/Austin-Chang/categories/%E8%BB%9F%E9%AB%94/</loc>
+    <loc>https://chung5116.github.io/Austin-Chang/tags/%E8%BB%9F%E9%AB%94/</loc>
     <lastmod>2024-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+
   
   <url>
     <loc>https://chung5116.github.io/Austin-Chang/categories/Tensor-Tech/</loc>
@@ -182,6 +175,13 @@
   
   <url>
     <loc>https://chung5116.github.io/Austin-Chang/categories/%E5%AD%B8%E7%BF%92/</loc>
+    <lastmod>2024-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chung5116.github.io/Austin-Chang/categories/%E8%BB%9F%E9%AB%94/</loc>
     <lastmod>2024-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
