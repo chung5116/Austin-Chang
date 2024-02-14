@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Disallow: /vendors/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+Sitemap: https://chung5116.github.io/Austin-Chang/sitemap.xml
+Sitemap: https://chung5116.github.io/Austin-Chang/baidusitemap.xml
