@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Medium 搬家</title>
+      <link href="/relocate-blog/"/>
+      <url>/relocate-blog/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很久之前就想要架設一個自己的部落格，來練習寫作，發發廢文。</p><p>但我就懶，每次總提不起勁，一氣呵成把它弄到底。</p><h2 id="紀錄"><a href="#紀錄" class="headerlink" title="紀錄"></a>紀錄</h2><p>前陣子看到這篇文章<a href="https://life.huli.tw/2023/10/09/goodbye-medium/">「再會了，Medium 搬家到 Hexo 心得」</a>，動力莫名地湧出。</p><p>我沒有什麼流量焦慮，或是其他考量，我只是單純覺得有自己的部落格很酷而已。</p><p>之前沒聽過 <a href="https://hexo.io/zh-tw/index.html">Hexo</a>，搜尋了一下，網路上不少資源可以參考，官方網站的文件也算齊全。</p><p>打鐵趁熱，趕緊趁著這股衝勁，直接搬家啦!</p><p>前前後後大概花了兩周時間，最花時間的是選 <a href="https://hexo.io/themes/">Theme</a>。</p><p>原本是想要選最多人使用的 <a href="https://github.com/theme-next/hexo-theme-next">Next</a>，也最多資源，出問題時也比較好解決。</p><p>但真的太受歡迎了，大家的 blog 都長得好像，但我不喜歡跟大家一樣，所以最後選了跟此<a href="https://life.huli.tw/2023/10/09/goodbye-medium/">「再會了，Medium 搬家到 Hexo 心得」</a>同個主題 <a href="https://github.com/Haojen/hexo-theme-Claudia">hexo-theme-Claudia</a>，簡約好看!</p><p>未來在 Medium 也是會同步更新，免費的流量不拿白不拿。</p><p>如果你也跟我一樣想要弄一個自己的部落格，這裡大力推薦 hexo 給你!</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Python Coding Style</title>
       <link href="/Python-Coding-Style/"/>
       <url>/Python-Coding-Style/</url>
