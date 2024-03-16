@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://chung5116.github.io/relocate-blog/</loc>
+    <lastmod>2024-03-16</lastmod>
+  </url>
+  <url>
+    <loc>https://chung5116.github.io/code-review-guide/</loc>
+    <lastmod>2024-03-02</lastmod>
+  </url>
+  <url>
     <loc>https://chung5116.github.io/github-gpg-key/</loc>
     <lastmod>2024-03-02</lastmod>
   </url>
   <url>
-    <loc>https://chung5116.github.io/relocate-blog/</loc>
-    <lastmod>2024-02-17</lastmod>
+    <loc>https://chung5116.github.io/Python-Coding-Style/</loc>
+    <lastmod>2024-03-02</lastmod>
   </url>
   <url>
     <loc>https://chung5116.github.io/Satir-Self-Awareness/</loc>
@@ -22,14 +30,6 @@
   </url>
   <url>
     <loc>https://chung5116.github.io/good-to-great/</loc>
-    <lastmod>2024-02-14</lastmod>
-  </url>
-  <url>
-    <loc>https://chung5116.github.io/code-review-guide/</loc>
-    <lastmod>2024-02-14</lastmod>
-  </url>
-  <url>
-    <loc>https://chung5116.github.io/Python-Coding-Style/</loc>
     <lastmod>2024-02-14</lastmod>
   </url>
   <url>

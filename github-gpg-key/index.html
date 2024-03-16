@@ -15,20 +15,20 @@
 
 其實 GitHub 的官網文件已經寫得很完整了，下方就是翻譯以及節錄重點。
 
-開始更換安裝 GPG到 GnuPG’s Download page 下載，根據你的作業系統選擇。我是下載 GnuPG binary releases 下方的 Gpg4win (Windows)。
+安裝 GPG到 GnuPG’s Download page 下載，根據你的作業系統選擇。我是下載 GnuPG binary releases 下方的 Gpg4win (Windows)。
 檢查已存在的 GPG keys
 打開 Git Bash。注意: 使用 VSCode 的 powershell 會找不到 GPG 工具哦
-檢查已經存在的 publ.."><meta name="generator" content="Hexo 7.1.1"></head><body class="is-flex is-flex-direction-column"><!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXVFCZNQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) --><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">Austin Chang's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">GPG 簽署 git commit</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">Click back to the top</p></div></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%96%8B%E5%A7%8B%E6%9B%B4%E6%8F%9B"><span class="toc-text">開始更換</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%9D-GPG"><span class="toc-text">安裝 GPG</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AA%A2%E6%9F%A5%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84-GPG-keys"><span class="toc-text">檢查已存在的 GPG keys</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%A2%E7%94%9F-GPG-key"><span class="toc-text">產生 GPG key</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8A%A0%E5%85%A5-GPG-Key"><span class="toc-text">加入 GPG Key</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%91-Git-%E9%80%9A%E7%9F%A5%E4%BD%A0%E7%9A%84-GPG-key"><span class="toc-text">向 Git 通知你的 GPG key</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E6%8F%92%E6%9B%B2"><span class="toc-text">小插曲</span></a></li></ol></li></ol></div><div class="column is-9"><header class="my-4"><a href="/tags/%E8%BB%9F%E9%AB%94"><i class="tag post-item-tag">軟體</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">GPG 簽署 git commit</h1><time class="has-text-grey" datetime="2024-02-24T10:29:41.000Z">2024-02-24</time><article class="mt-2 post-content"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前陣子在 GitHub 上，偶然看到同事的 commit 後面有綠色的 Verified 標示，我的卻沒有。</p>
+檢查已經存在的 public a.."><meta name="generator" content="Hexo 7.1.1"></head><body class="is-flex is-flex-direction-column"><!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXVFCZNQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) --><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">Austin Chang's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">GPG 簽署 git commit</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">Click back to the top</p></div></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-text">前言</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%9D-GPG"><span class="toc-text">安裝 GPG</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AA%A2%E6%9F%A5%E5%B7%B2%E5%AD%98%E5%9C%A8%E7%9A%84-GPG-keys"><span class="toc-text">檢查已存在的 GPG keys</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%A2%E7%94%9F-GPG-key"><span class="toc-text">產生 GPG key</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8A%A0%E5%85%A5-GPG-Key"><span class="toc-text">加入 GPG Key</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%91-Git-%E9%80%9A%E7%9F%A5%E4%BD%A0%E7%9A%84-GPG-key"><span class="toc-text">向 Git 通知你的 GPG key</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E6%8F%92%E6%9B%B2"><span class="toc-text">小插曲</span></a></li></ol></li></ol></div><div class="column is-9"><header class="my-4"><a href="/tags/%E8%BB%9F%E9%AB%94"><i class="tag post-item-tag">軟體</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">GPG 簽署 git commit</h1><time class="has-text-grey" datetime="2024-02-24T10:29:41.000Z">2024-02-24</time><article class="mt-2 post-content"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前陣子在 GitHub 上，偶然看到同事的 commit 後面有綠色的 Verified 標示，我的卻沒有。</p>
 <p>有那個 Verified 標示看起來就比較厲害，我也想要有!</p>
 <p>搜尋一下，原來是需要透過 GPG 簽署才有這個功能，我目前使用的 SSH 不支援，因此，需要更換簽署。</p>
 <p><img src="/github-gpg-key/verified-commit.jpg"></p>
 <p>其實 GitHub 的官網<a target="_blank" rel="noopener external nofollow noreferrer" href="https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification">文件</a>已經寫得很完整了，下方就是翻譯以及節錄重點。</p>
 <hr>
-<h2 id="開始更換"><a href="#開始更換" class="headerlink" title="開始更換"></a>開始更換</h2><h3 id="安裝-GPG"><a href="#安裝-GPG" class="headerlink" title="安裝 GPG"></a>安裝 GPG</h3><p>到 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.gnupg.org/download/">GnuPG’s Download page</a> 下載，根據你的作業系統選擇。我是下載 GnuPG binary releases 下方的 Gpg4win (Windows)。</p>
+<h3 id="安裝-GPG"><a href="#安裝-GPG" class="headerlink" title="安裝 GPG"></a>安裝 GPG</h3><p>到 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.gnupg.org/download/">GnuPG’s Download page</a> 下載，根據你的作業系統選擇。我是下載 GnuPG binary releases 下方的 Gpg4win (Windows)。</p>
 <h3 id="檢查已存在的-GPG-keys"><a href="#檢查已存在的-GPG-keys" class="headerlink" title="檢查已存在的 GPG keys"></a>檢查已存在的 GPG keys</h3><ol>
 <li>打開 Git Bash。注意: 使用 VSCode 的 powershell 會找不到 GPG 工具哦</li>
-<li>檢查已經存在的 public and private key<pre><code>gpg --list-secret-keys --keyid-format=long
+<li>檢查已經存在的 public and private key<pre><code class="sh">gpg --list-secret-keys --keyid-format=long
 </code></pre>
 </li>
 </ol>
@@ -36,7 +36,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li><p>打開 Git Bash</p>
 </li>
 <li><p>產生 GPG key pair</p>
-<pre><code>gpg --full-generate-key
+<pre><code class="sh">gpg --full-generate-key
 </code></pre>
 </li>
 <li><p>根據顯示的內容回答，或是按 ‘enter’ 接收預設值設定</p>
@@ -46,11 +46,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li><p>輸入安全密碼</p>
 </li>
 <li><p>列出剛才產生的 Key</p>
-<pre><code>gpg --list-secret-keys --keyid-format=long
+<pre><code class="sh">gpg --list-secret-keys --keyid-format=long
 </code></pre>
 </li>
 <li><p>你會看到類似下方結果，<code>3AA5C34371567BD2</code> 就是此範例的 key ID 囉</p>
-<pre><code>$ gpg --list-secret-keys --keyid-format=long
+<pre><code class="sh">$ gpg --list-secret-keys --keyid-format=long
 /Users/hubot/.gnupg/secring.gpg
 ------------------------------------
 sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]
@@ -59,7 +59,7 @@ ssb   4096R/4BB6D45482678BE3 2016-03-10
 </code></pre>
 </li>
 <li><p>將下面的範例 ID 替換成你的</p>
-<pre><code>gpg --armor --export 3AA5C34371567BD2
+<pre><code class="sh">gpg --armor --export 3AA5C34371567BD2
 # Prints the GPG key ID, in ASCII armor format
 </code></pre>
 </li>
@@ -78,10 +78,10 @@ ssb   4096R/4BB6D45482678BE3 2016-03-10
 <p>備註: 此動作需要 2FA</p>
 <h3 id="向-Git-通知你的-GPG-key"><a href="#向-Git-通知你的-GPG-key" class="headerlink" title="向 Git 通知你的 GPG key"></a>向 Git 通知你的 GPG key</h3><ol>
 <li>打開 Git Bash</li>
-<li>如果你之前有使用不同的金鑰格式，需要取消<pre><code>git config --global --unset gpg.format
+<li>如果你之前有使用不同的金鑰格式，需要取消<pre><code class="sh">git config --global --unset gpg.format
 </code></pre>
 </li>
-<li>向 Git 設定你的主要 GPG signing key。<code>3AA5C34371567BD2</code> 為範例 ID<pre><code>git config --global user.signingkey 3AA5C34371567BD2
+<li>向 Git 設定你的主要 GPG signing key。<code>3AA5C34371567BD2</code> 為範例 ID<pre><code class="sh">git config --global user.signingkey 3AA5C34371567BD2
 </code></pre>
 </li>
 </ol>
