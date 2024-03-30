@@ -439,12 +439,11 @@ input,
 optgroup,
 select,
 textarea {
-  /* 字形 */
-  /* font-family: "Noto Sans", sans-serif; */
-  font-family: "Anta", "Arial", sans-serif;
-  /* font-family: "Noto Sans", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Noto Sans", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
+/* code block*/
 code,
 pre {
   -moz-osx-font-smoothing: auto;
@@ -11415,18 +11414,18 @@ print {
   font-weight: 700 !important;
 }
 
+
 .is-family-primary {
-  font-family: "Anta", "Arial", sans-serif;
-  /* font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; */
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
 }
 
-/* .is-family-secondary {
+.is-family-secondary {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
 }
 
 .is-family-sans-serif {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
-} */
+}
 
 .is-family-monospace {
   font-family: monospace !important;
